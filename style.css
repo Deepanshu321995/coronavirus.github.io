@@ -1,0 +1,63 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Muli', sans-serif;}
+.navbar_style{background-color: #000!important}
+.navbar_style a{color: white;}
+
+/*............Main Header Styling..........*/
+.main_header{height: 450px; width: 100%}
+.rightside h1{font-size:3rem;}
+.virus_rotate img{
+	animation: virusgo 3s linear infinite;
+}
+@keyframes virusgo{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+
+
+/*..........COvid19 Details part............*/
+.section_style{ background-color: #fbfafd }
+
+.footer_style{background-color: black;}
+.footer_style p{margin-bottom: 0!important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+	.main_header{height: 700px;text-align: center;}
+    
+    .main_header h1{
+    	text-align: center;
+    	padding: 0;
+    	width: 100%;
+    	font-size: 30px;
+    }	
+}
